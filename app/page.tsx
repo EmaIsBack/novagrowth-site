@@ -290,7 +290,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 1 }}
           className="text-lg md:text-xl text-white/70 max-w-2xl mx-auto font-mono mb-12"
         >
-          Sostituiamo la latenza umana con l'Intelligenza Artificiale. <br className="hidden md:block" />
+          Sostituiamo la latenza umana con l&apos;Intelligenza Artificiale. <br className="hidden md:block" />
           <span className="text-white">Zero sforzo, calendario pieno.</span>
         </motion.p>
 
@@ -387,14 +387,14 @@ const ScrollyTellingSection = () => {
           <h2 className="text-6xl md:text-8xl font-bold tracking-tighter uppercase max-w-5xl text-white relative z-10 drop-shadow-[0_0_40px_rgba(255,255,255,0.2)]">
             La Fiducia <br />
             <motion.span animate={{ color: ['#ffffff', '#FF6B00', '#ffffff'], textShadow: ['0 0 0px #000', '0 0 40px #FF6B00', '0 0 0px #000'] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }} className="italic font-light">
-              dell'Influencer.
+              dell&apos;Influencer.
             </motion.span>
           </h2>
 
           <motion.div animate={{ y: [0, -15, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="mt-12 relative z-10">
             <p className="font-mono text-white/80 max-w-lg text-sm md:text-base leading-relaxed border border-[#FF6B00]/20 bg-black/40 p-8 rounded-2xl backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.5),inset_0_0_20px_rgba(255,107,0,0.05)]">
               I pazienti oggi non aspettano. Pretendono risposte immediate, <span className="text-[#FF6B00] font-bold">24/7</span>.
-              <br /><br />L'attenzione è il nuovo petrolio.
+              <br /><br />L&apos;attenzione è il nuovo petrolio.
             </p>
           </motion.div>
         </motion.div>
@@ -479,7 +479,7 @@ const MathProofSection = () => {
 
             <div className="space-y-6 font-mono text-sm text-white/80">
               <div className="flex justify-between border-b border-[#FF6B00]/20 pb-2">
-                <span>Lead gestiti dall'AI in 2 sec:</span>
+                <span>Lead gestiti dall&apos;AI in 2 sec:</span>
                 <span className="text-[#FF6B00]">100%</span>
               </div>
               <div className="flex justify-between border-b border-[#FF6B00]/20 pb-2">
@@ -623,9 +623,9 @@ const FooterSection = () => {
         <div className="w-full flex flex-col md:flex-row justify-between items-center font-mono text-[10px] text-white/30 uppercase tracking-widest gap-4">
           <div>© {new Date().getFullYear()} NovaGrowth. All Rights Reserved.</div>
           <div className="flex gap-8">
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
-            <a href="#" className="hover:text-white transition-colors">Termini</a>
-            <a href="#" className="hover:text-white transition-colors">Instagram</a>
+            <a href="/" className="hover:text-white transition-colors">Privacy</a>
+            <a href="/" className="hover:text-white transition-colors">Termini</a>
+            <a href="/" className="hover:text-white transition-colors">Instagram</a>
           </div>
         </div>
 
